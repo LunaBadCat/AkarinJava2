@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akarin's Website</title>
+</head>
+<body> <center>
+    <h1>Welcome to My Website😶</h1>
+    <p id='test'></p>
+    <p id="Akarin"></p>
+    <script>
+        window.alert("Welcome to My Website");
+        window.alert('How are you?');
+        // แสดงข้อความ
+        document.getElementById('test').innerHTML = 4*5;
+        document.getElementById("Akarin").innerHTML = 20+50;
+        console.log(4+15); 
+        // ตัวอย่างการสร้างชนิดของข้อมูล
+        var age = 16;
+        var lastname = 'Luckanasup';
+        var cars = ['Toyota','Handa','BMW'];
+        var me = {firstName:"Akarin",lastName:"Luckanasup"};
+        // เรียกโชว์ด้วยตัวแปรที่เก็บไว้ใน var
+        window.alert(age);
+        window.alert(lastname);
+        window.alert(cars);
+        window.alert(me);
+        console.log(me);
+    </script>
+    <!-- ชวนคิด -->
+<p id="b"></p>
+<script>
+    var x = 4;
+    var y = 5;
+    var z = x+y;
+    document.getElementById('b').innerHTML = z;
+</script>
+
+<button onclick="this.innerHTML=Date()">วันที่</button>
+
+<!-- Function -->
+<script>
+    // กำหนดชื่อ
+    function myFunction(a,b)
+    {
+        // สร้างโจทย์หรือคำสั่ง
+        x=a*b;
+        // แสดงผล
+        alert("ผลลัพธ์ของ a*b="+x);
+    }
+</script>
+<!-- การใช้งาน -->
+<button onclick="myFunction(10,4)">Click Me</button>
+
+<!--ชวนคิด 2 -->
+<script>
+ function Function1(name1,name2)
+    {
+        alert("Welcome"+name1 +", คุณ"+name2 +"สุดสวย");
+    }
+</script>
+<button onclick="Function1('พัชราภา','อริสรา')">ต้อนรับ</button>
+
+<!-- ตรวจสอบเงื่อนไข -->
+<script>
+    // if condition
+    a=5;
+    if(a==5){
+        alert("a มีค่าเท่ากับ 1");
+    }
+    // if else condition
+    a=0;
+    if(a==2){
+        alert("a มีค่าเท่ากับ 1");}
+    else{
+        alert("a มีค่าไม่เท่ากับ 1");
+    }
+    // else-if condition
+    a=2;
+    if(a==1){
+        alert("a = 1");
+    }
+    else if(a==2){
+        alert("a = 2");
+    }
+    else{
+        alert("a =not equal to 1");
+    }
+</script>
+</center>
+</body>
+</html>
